@@ -331,6 +331,38 @@ export default function App() {
         </div>
       </nav>
 
+      {/* Announcement / Marquee Strip */}
+      <div className="fixed top-[110px] left-0 right-0 z-40 bg-[#7C3AED] text-white overflow-hidden">
+        <div className="whitespace-nowrap flex items-center h-8">
+          <div className="animate-marquee flex items-center gap-12 px-6">
+            <span className="text-sm font-medium">
+              🎓 Study in UK • USA • Canada • Australia • Germany • UAE
+            </span>
+            <span className="text-sm font-medium">
+              ✨ What we offer: Counseling • University Selection • Applications
+              • Visa Support
+            </span>
+            <span className="text-sm font-medium">
+              🌍 Your global education journey starts with Vidyayatra
+            </span>
+          </div>
+
+          {/* duplicate for seamless loop */}
+          <div className="animate-marquee flex items-center gap-12 px-6">
+            <span className="text-sm font-medium">
+              🎓 Study in UK • USA • Canada • Australia • Germany • UAE
+            </span>
+            <span className="text-sm font-medium">
+              ✨ What we offer: Counseling • University Selection • Applications
+              • Visa Support
+            </span>
+            <span className="text-sm font-medium">
+              🌍 Your global education journey starts with Vidyayatra
+            </span>
+          </div>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <section className="relative h-screen">
         {/* Background Carousel */}
