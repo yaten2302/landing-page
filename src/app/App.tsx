@@ -321,12 +321,12 @@ export default function App() {
             <a href="#blog" className="text-gray-700 hover:text-[#7C3AED]">
               Blog
             </a>
-            <a
-              href="#connect"
+            <button
+              onClick={() => setOpenRegister(true)}
               className="bg-[#FCD34D] text-gray-900 px-6 py-2 rounded-full hover:bg-[#FBBF24] shadow-md"
             >
               Let's Connect
-            </a>
+            </button>
           </div>
         </div>
       </nav>
